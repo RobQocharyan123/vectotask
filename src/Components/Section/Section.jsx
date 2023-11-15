@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Section.css";
 import { useState } from "react";
-import axios from "axios";
 
 export const Section = (props) => {
   const [play, setPlay] = useState(false);

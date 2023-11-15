@@ -1,9 +1,8 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Menu } from "./Components/Menu/Menu";
 import { Section } from "./Components/Section/Section";
 import { Slide } from "./Components/Slide/Slide";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import axios from "axios";
 function App() {
   let arr = JSON.parse(localStorage.getItem("divData")) || [];
