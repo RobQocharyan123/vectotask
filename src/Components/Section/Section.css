@@ -1,0 +1,103 @@
+
+.section{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.first{
+    width: 30%;
+    position: absolute;
+    z-index: 55;
+}
+
+.second{
+    width: 100%;
+  /* background-image: url('../../assets/featuredCover.png'); */
+    background-repeat: no-repeat;
+    background-size:  50%;
+    background-position-x: right;
+
+    z-index: 9;
+}
+
+.first img{
+    width: 500px;
+}
+
+.title{
+    color: gray;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.time{
+    display: flex;
+
+}
+
+.time span{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.time span:last-child{
+    margin-left: 10px;
+    
+}
+
+.description{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+
+.play{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.play button:last-child{
+    margin-left: 10px;
+}
+
+.play button{
+    width: 100px;
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.play button:hover{
+    background-color: #2124E0;
+    transition: all .3s linear;
+    color: white;
+}
+
+button img{
+    width: 10px !important;
+    height: 10px;
+}
+
+
+.video{
+    position: absolute;
+    right: 27%;
+    top: 12%;
+    z-index: 999;
+}
+
+.video button{
+    width: 20px;
+    height: 20px;
+}
